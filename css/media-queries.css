@@ -8,6 +8,7 @@
 body {
     padding: 15px;
     font-family: "Ubuntu", sans-serif;
+
 }
 .alert-info.hidden-on-desktop {
     display: none;
@@ -24,17 +25,25 @@ h1 {
 }
 .main, .sub-section {
     margin-bottom: 50px;
+
 }
 h2 {
     margin-bottom: 10px;
 }
 .sub-section {
     font-style: italic;
+
 }
+
+
+
+
+
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    clear: both;
 }
 #social-media-links > ul {
     list-style: none;
@@ -82,6 +91,43 @@ footer {
     }
 }
 
+@media screen and (min-width:601px) {
+    .main, .sub-section {
+        float: left;
+    }
+    .sub-section {
+
+        width:35%;
+    }
+
+    .main {
+        width:65%;
+    }
+    nav > ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+        float: right;
+        line-height: 100px;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    h1 {
+        margin: 0;
+        width: 45%;
+        float:left;
+    }
+
+
+
+
+
+}
 
 
 
