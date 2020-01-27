@@ -1,0 +1,29 @@
+/*For cell phone*/
+@media screen and (max-width:600px) {
+    .alert-info.hidden-on-desktop {
+        background-color: rgb(192,255,255);
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+    .alert-info a {
+        text-decoration: none;
+        color: black;
+        /*padding: 20px 0 20px 0;*/
+
+    }
+
+
+}
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width:768px) { /* ... */ }
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width:992px) { /* ... */ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width:1200px) { /* ... */ }
